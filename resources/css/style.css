@@ -102,18 +102,13 @@ header img {
 
  }
 
- .location-grouped {
+
+ .location-item {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
    align-items: center;
 
-
- }
-
- .location-items {
-   justify-content: center;
-   flex-wrap: wrap;
 
 
  }
@@ -124,8 +119,19 @@ header img {
    justify-content: center;
    background-color: black;
    width: 300px;
+   margin: 5px 20px;
+   opacity: 1;
  }
 
  .location h3 {
    font-weight: bold;
+ }
+
+ .contact {
+   height: 200px;
+ }
+
+ footer {
+   text-align: left !important;
+   padding-left: 20px;
  }
