@@ -11,8 +11,14 @@ body  {
 
 .flex-container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.content {
+  margin: auto;
+  width: 1200px;
+  padding-top: 69px;
 }
 
 a  {
@@ -25,6 +31,11 @@ header  {
   align-items: center;
   height: 69px;
   width: 100%;
+  position: fixed;
+  background-color: black;
+  margin-top: 0px;
+  z-index: 1;
+  padding: 0px;
 
  }
 
@@ -35,11 +46,13 @@ header  {
    text-align: right;
 
 
+
  }
 
 header img {
    height: 50px;
    padding-left: 10px;
+
  }
 
  span {
@@ -63,13 +76,56 @@ header img {
    width: 1200px;
  }
 
- .tea-month {
+ .tea-selection {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .tea-item {
    display: flex;
    flex-direction: column;
-   flex-wrap: wrap;
+
+
  }
 
  .tea-item img {
    height: 200px;
    width: 300px;
+   padding: 10px;
+ }
+
+ .location-main  {
+   background-image: url("../images/img-locations-background.jpg");
+   height: 500px;
+   padding: 70px;
+
+ }
+
+ .location-grouped {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+
+
+ }
+
+ .location-items {
+   justify-content: center;
+   flex-wrap: wrap;
+
+
+ }
+
+ .location  {
+
+   flex-direction: column;
+   justify-content: center;
+   background-color: black;
+   width: 300px;
+ }
+
+ .location h3 {
+   font-weight: bold;
  }
